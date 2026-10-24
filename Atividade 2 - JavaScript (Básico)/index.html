@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Atividade 1 - JavaScript</h1>
+
+    <section>
+        <h2>1. Adivinhe o Número</h2>
+        <p>Adivinhe um número de 1 a 20.</p>
+        <input type="number" id="palpite" placeholder="Digite um número">
+        <button onclick="adivinhar()">Adivinhar</button>
+        <p id="resultado1"></p>
+    </section>
+
+    <section>
+        <h2>2. Pedra, Papel ou Tesoura</h2>
+        <button onclick="jogar()">Jogar</button>
+        <p id="resultado2"></p>
+    </section>
+
+    <section>
+        <h2>3. Tabuada</h2>
+        <input type="number" id="numero" placeholder="Digite um número">
+        <button onclick="mostrarTabuada()">Calcular</button>
+        <pre id="resultado3"></pre>
+    </section>
+
+    <section>
+        <h2>4. Triângulo de Asteriscos</h2>
+        <input type="number" id="linhas" placeholder="Quantidade de linhas">
+        <button onclick="desenharTriangulo()">Desenhar</button>
+        <pre id="resultado4"></pre>
+    </section>
+
+    <section>
+        <h2>5. Soma da Série</h2>
+        <p>Exemplo: 1 + 11 + 111 + 1111...</p>
+        <input type="number" id="termos" placeholder="Quantidade de termos">
+        <button onclick="somarSerie()">Calcular</button>
+        <p id="serie"></p>
+        <p id="resultado5"></p>
+    </section>
+
+</body>
+</html>
